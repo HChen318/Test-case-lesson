@@ -43,7 +43,7 @@ npm i @babel/core@7.4.5 @babel/preset-env@7.4.5
 
 ​		// jest(babel-jest) //内部集成插件,检测是否安装babel-core 插件
 
-​		// 然后取babelrc配置
+​		// 然  后取babelrc配置
 
 ```
 {
@@ -57,9 +57,29 @@ npm i @babel/core@7.4.5 @babel/preset-env@7.4.5
 }
 ```
 
+#### lesson4
 
+​	匹配器学习
 
+####  lesson5
 
+​	jest 命令行工具使用+异步代码测试方法
+
+```	 
+npm i axios@0.19.0 -S 
+```
+
+#### lesson6
+
+​	jset钩子函数
+
+#### lesson7
+
+​	jest中的mock
+
+#### lesson8
+
+​	jest-snapshot快照
 
 
 
