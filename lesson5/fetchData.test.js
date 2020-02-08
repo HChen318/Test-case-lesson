@@ -19,7 +19,7 @@ import { fetchData, fetchData2 } from './fetchData'
 //     })
 // })
 
-//测试404
+// 测试404
 // test('fetchData 返回结果为404', () => {
 //     // 至少执行一次expect
 //     expect.assertions(1)
@@ -50,10 +50,9 @@ import { fetchData, fetchData2 } from './fetchData'
 // })
 
 test('fetchData 返回结果为404', async () => {
-    try {
-        await fetchData2()
-    } catch(e) {
-        expect(e.toString()).toEqual('Error: Request failed with status code 404')
-    }
-
+  try {
+    await fetchData2()
+  } catch (e) {
+    expect(e.toString()).toEqual('Error: Request failed with status code 404')
+  }
 })

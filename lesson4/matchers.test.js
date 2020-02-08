@@ -54,7 +54,7 @@
 // })
 
 // test('toBeGreaterThanOrEqual', () => {
-//     // toBeLessThanOrEqual 
+//     // toBeLessThanOrEqual
 //     const a = 10
 //     expect(a).toBeGreaterThanOrEqual(10)
 // })
@@ -68,27 +68,24 @@
 
 // string
 test('toMatch', () => {
-    const str = 'http://www.baidu.com'
-    // expect(str).toMatch('baidu')
-    expect(str).toMatch(/baidu/)
+  const str = 'http://www.baidu.com'
+  // expect(str).toMatch('baidu')
+  expect(str).toMatch(/baidu/)
 })
 
 // Array,Set
 test('toContain', () => {
-    const arr = ['dell','lee','imooc']
-    // expect(str).toMatch('baidu')
-    expect(arr).toContain('dell')
+  const arr = ['dell', 'lee', 'imooc']
+  // expect(str).toMatch('baidu')
+  expect(arr).toContain('dell')
 })
 
 // 异常
 const throwNewError = () => {
-    throw new Error('this is a new error')
+  throw new Error('this is a new error')
 }
 
 test('toThrow', () => {
-    // expect(throwNewError).toThrow()
-    expect(throwNewError).toThrow('this is a new error')
+  // expect(throwNewError).toThrow()
+  expect(throwNewError).toThrow('this is a new error')
 })
-
-
-
